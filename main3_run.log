@@ -1,0 +1,163 @@
+2026-10-01 01:14:32,523 main3 version main3-fixed-main-yaw-2
+2026-10-01 01:14:32,525 Running file: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\main3.py
+2026-10-01 01:14:32,525 Map: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\map_config.json; start=(0, 0) facing +y; targets=((3, 1), (3, 4), (5, 2)); walls=16
+2026-10-01 01:14:34,129 RECENTER before recording the first main yaw
+2026-10-01 01:14:37,691 START cell=(0, 0) targets=((3, 1), (3, 4), (5, 2)) map=6x6 initial_yaw=-5.30
+2026-10-01 01:14:37,692 Gimbal command return: None (NoneType); None is normal for async SDK
+2026-10-01 01:14:37,693 target=-5.30 ground=-5.30 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(0.408, 2.004)
+2026-10-01 01:14:38,229 A* order=((3, 1), (5, 2), (3, 4)) path=[(0, 0), (1, 0), (2, 0), (3, 0), (3, 1)] choose=(0, 0) -> (1, 0)
+2026-10-01 01:14:38,229 TURN fixed_main=-5.30 previous_yaw=-5.30 offset=+90 target=84.70 heading=+x
+2026-10-01 01:14:38,695 target=84.70 ground=12.80 yaw_body=17.90 error=71.90 forward=0.000 turn=0.00 position=(0.408, 2.004)
+2026-10-01 01:14:39,688 target=84.70 ground=56.90 yaw_body=62.20 error=27.80 forward=0.000 turn=0.00 position=(0.408, 2.003)
+2026-10-01 01:14:40,727 target=84.70 ground=84.00 yaw_body=89.20 error=0.70 forward=0.000 turn=0.00 position=(0.408, 2.003)
+2026-10-01 01:14:41,764 target=84.70 ground=84.70 yaw_body=82.10 error=0.00 forward=0.000 turn=30.00 position=(0.407, 2.001)
+2026-10-01 01:14:42,802 target=84.70 ground=84.70 yaw_body=50.60 error=0.00 forward=0.000 turn=30.00 position=(0.407, 2.004)
+2026-10-01 01:14:43,801 target=84.70 ground=84.70 yaw_body=19.70 error=0.00 forward=0.000 turn=30.00 position=(0.406, 2.006)
+2026-10-01 01:14:44,838 target=84.70 ground=84.70 yaw_body=0.40 error=0.00 forward=0.000 turn=0.80 position=(0.400, 2.009)
+2026-10-01 01:14:45,313 TURN complete fixed_main=-5.30 walking_yaw=84.70 body_offset=0.20
+2026-10-01 01:14:47,926 ALIGN scan right unavailable: No fresh alignment ToF: index=0 raw=(3552, 0, 0, 0)
+2026-10-01 01:14:48,772 ALIGN scan left 2033.0 mm
+2026-10-01 01:14:49,377 ALIGN scan back 156.0 mm
+2026-10-01 01:14:49,377 ALIGN selected back (search order right, left, back)
+2026-10-01 01:14:51,888 ALIGN back check 1: +151.0 -145.0 diff=6.0 mm
+2026-10-01 01:14:52,714 target=84.70 ground=84.80 yaw_body=1.30 error=-0.10 forward=0.000 turn=2.40 position=(0.401, 2.009)
+2026-10-01 01:14:53,756 target=84.70 ground=84.70 yaw_body=0.50 error=0.00 forward=0.000 turn=1.00 position=(0.399, 2.008)
+2026-10-01 01:14:53,914 ALIGN result selected=back aligned=True fixed_main_yaw=-5.30 walking_yaw=84.70
+2026-10-01 01:14:56,456 Front ToF check unavailable on open mapped edge: No fresh alignment ToF: index=0 raw=(3098, 0, 0, 0)
+2026-10-01 01:14:56,457 target=84.70 ground=84.70 yaw_body=-0.10 error=0.00 forward=0.000 turn=-0.20 position=(0.396, 2.006)
+2026-10-01 01:14:57,457 target=84.70 ground=84.70 yaw_body=-0.40 error=0.00 forward=0.300 turn=-0.80 position=(0.403, 2.101)
+2026-10-01 01:14:58,448 target=84.70 ground=84.70 yaw_body=-0.10 error=0.00 forward=0.295 turn=-0.20 position=(0.417, 2.359)
+2026-10-01 01:14:59,492 target=84.70 ground=84.70 yaw_body=0.10 error=0.00 forward=0.060 turn=0.20 position=(0.428, 2.554)
+2026-10-01 01:15:00,530 target=84.70 ground=84.70 yaw_body=0.30 error=0.00 forward=0.000 turn=0.60 position=(0.430, 2.606)
+2026-10-01 01:15:00,739 Cell 1 done: 0.592 m
+2026-10-01 01:15:00,745 A* order=((3, 1), (5, 2), (3, 4)) path=[(1, 0), (2, 0), (3, 0), (3, 1)] choose=(1, 0) -> (2, 0)
+2026-10-01 01:15:01,575 target=84.70 ground=84.70 yaw_body=-0.20 error=0.00 forward=0.300 turn=-0.40 position=(0.434, 2.644)
+2026-10-01 01:15:02,619 target=84.70 ground=84.70 yaw_body=-0.40 error=0.00 forward=0.298 turn=-0.80 position=(0.451, 2.954)
+2026-10-01 01:15:03,613 target=84.70 ground=84.70 yaw_body=0.00 error=0.00 forward=0.070 turn=0.00 position=(0.462, 3.143)
+2026-10-01 01:15:04,611 target=84.70 ground=84.70 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(0.465, 3.207)
+2026-10-01 01:15:04,983 Cell 2 done: 0.600 m
+2026-10-01 01:15:04,990 A* order=((3, 1), (5, 2), (3, 4)) path=[(2, 0), (3, 0), (3, 1)] choose=(2, 0) -> (3, 0)
+2026-10-01 01:15:05,618 target=84.70 ground=84.70 yaw_body=0.00 error=0.00 forward=0.300 turn=0.00 position=(0.467, 3.214)
+2026-10-01 01:15:06,606 target=84.70 ground=84.70 yaw_body=0.20 error=0.00 forward=0.300 turn=0.40 position=(0.482, 3.479)
+2026-10-01 01:15:07,650 target=84.70 ground=84.70 yaw_body=0.00 error=0.00 forward=0.093 turn=0.00 position=(0.498, 3.736)
+2026-10-01 01:15:08,642 target=84.70 ground=84.70 yaw_body=0.10 error=0.00 forward=0.000 turn=0.20 position=(0.502, 3.808)
+2026-10-01 01:15:09,114 Cell 3 done: 0.592 m
+2026-10-01 01:15:09,867 ALIGN scan right 132.0 mm
+2026-10-01 01:15:09,867 ALIGN selected right (search order right, left, back)
+2026-10-01 01:15:12,117 ALIGN right check 1: +134.0 -126.0 diff=8.0 mm
+2026-10-01 01:15:12,987 ALIGN right yaw +2.5 degrees (1/3, total 2.5)
+2026-10-01 01:15:16,053 ALIGN right check 2: +130.0 -119.0 diff=11.0 mm
+2026-10-01 01:15:16,879 ALIGN right yaw +3.5 degrees (2/3, total 6.0)
+2026-10-01 01:15:19,087 ALIGN right check 3: +134.0 -116.0 diff=18.0 mm
+2026-10-01 01:15:19,686 ALIGN right yaw +5.6 degrees (3/3, total 11.6)
+2026-10-01 01:15:21,339 ALIGN right check 4: +142.0 -126.0 diff=16.0 mm
+2026-10-01 01:15:21,795 target=96.30 ground=96.60 yaw_body=16.60 error=-0.30 forward=0.000 turn=30.00 position=(0.497, 3.807)
+2026-10-01 01:15:22,841 target=96.30 ground=96.30 yaw_body=1.20 error=-0.00 forward=0.000 turn=2.40 position=(0.496, 3.809)
+2026-10-01 01:15:23,624 ALIGN result selected=right aligned=False fixed_main_yaw=-5.30 walking_yaw=96.30
+2026-10-01 01:15:23,625 ALIGN right outside 7.0 mm after 3 corrections; continuing
+2026-10-01 01:15:23,884 target=96.30 ground=96.30 yaw_body=0.10 error=-0.00 forward=0.000 turn=0.20 position=(0.498, 3.810)
+2026-10-01 01:15:24,306 A* order=((3, 1), (5, 2), (3, 4)) path=[(3, 0), (3, 1)] choose=(3, 0) -> (3, 1)
+2026-10-01 01:15:24,306 TURN fixed_main=-5.30 previous_yaw=96.30 offset=-90 target=6.30 heading=+y
+2026-10-01 01:15:24,879 target=6.30 ground=74.80 yaw_body=-20.90 error=-68.50 forward=0.000 turn=0.00 position=(0.500, 3.810)
+2026-10-01 01:15:25,917 target=6.30 ground=27.10 yaw_body=-68.50 error=-20.80 forward=0.000 turn=0.00 position=(0.500, 3.810)
+2026-10-01 01:15:26,961 target=6.30 ground=6.30 yaw_body=-89.80 error=-0.00 forward=0.000 turn=0.00 position=(0.500, 3.810)
+2026-10-01 01:15:27,954 target=6.30 ground=6.30 yaw_body=-73.60 error=-0.00 forward=0.000 turn=-30.00 position=(0.499, 3.810)
+2026-10-01 01:15:28,995 target=6.30 ground=6.30 yaw_body=-42.00 error=-0.00 forward=0.000 turn=-30.00 position=(0.498, 3.809)
+2026-10-01 01:15:30,035 target=6.30 ground=6.30 yaw_body=-11.10 error=-0.00 forward=0.000 turn=-22.20 position=(0.498, 3.808)
+2026-10-01 01:15:31,073 target=6.30 ground=6.30 yaw_body=-0.50 error=-0.00 forward=0.000 turn=-1.00 position=(0.501, 3.808)
+2026-10-01 01:15:31,336 TURN complete fixed_main=-5.30 walking_yaw=6.30 body_offset=-0.40
+2026-10-01 01:15:31,982 ALIGN scan right 917.0 mm
+2026-10-01 01:15:32,806 ALIGN scan left 2080.0 mm
+2026-10-01 01:15:33,622 ALIGN scan back 149.0 mm
+2026-10-01 01:15:33,622 ALIGN selected back (search order right, left, back)
+2026-10-01 01:15:36,130 ALIGN back check 1: +156.0 -130.0 diff=26.0 mm
+2026-10-01 01:15:38,389 ALIGN gimbal trim offset=+0.0 residual=-3.50 command=-12.10
+2026-10-01 01:15:38,791 ALIGN back yaw -6.8 degrees (1/3, total 6.8)
+2026-10-01 01:15:41,454 ALIGN back check 2: +153.0 -138.0 diff=15.0 mm
+2026-10-01 01:15:42,476 ALIGN back yaw -4.1 degrees (2/3, total 10.9)
+2026-10-01 01:15:44,737 ALIGN back check 3: +152.0 -148.0 diff=4.0 mm
+2026-10-01 01:15:45,511 target=-4.60 ground=-4.20 yaw_body=-19.00 error=-0.40 forward=0.000 turn=-30.00 position=(0.524, 3.823)
+2026-10-01 01:15:46,554 target=-4.60 ground=-4.60 yaw_body=-1.20 error=-0.00 forward=0.000 turn=-2.40 position=(0.526, 3.824)
+2026-10-01 01:15:47,442 ALIGN result selected=back aligned=True fixed_main_yaw=-5.30 walking_yaw=-4.60
+2026-10-01 01:15:47,545 target=-4.60 ground=-4.60 yaw_body=0.00 error=-0.00 forward=0.000 turn=-0.00 position=(0.528, 3.820)
+2026-10-01 01:15:48,542 target=-4.60 ground=-4.60 yaw_body=-0.10 error=-0.00 forward=0.000 turn=-0.20 position=(0.530, 3.821)
+2026-10-01 01:15:49,584 target=-4.60 ground=-4.60 yaw_body=0.20 error=-0.00 forward=0.300 turn=0.40 position=(0.752, 3.808)
+2026-10-01 01:15:50,579 target=-4.60 ground=-4.60 yaw_body=0.10 error=-0.00 forward=0.130 turn=0.20 position=(1.021, 3.788)
+2026-10-01 01:15:51,622 target=-4.60 ground=-4.60 yaw_body=0.00 error=-0.00 forward=0.060 turn=-0.00 position=(1.109, 3.781)
+2026-10-01 01:15:52,300 Cell 4 done: 0.591 m
+2026-10-01 01:15:52,300 TARGET reached (3, 1) (1/3)
+2026-10-01 01:15:52,306 A* order=((5, 2), (3, 4)) path=[(3, 1), (3, 0), (4, 0), (4, 1), (4, 2), (5, 2)] choose=(3, 1) -> (3, 0)
+2026-10-01 01:15:52,306 TURN fixed_main=-5.30 previous_yaw=-4.60 offset=+90 target=85.40 heading=+x
+2026-10-01 01:15:52,621 target=85.40 ground=4.10 yaw_body=8.50 error=81.30 forward=0.000 turn=0.00 position=(1.128, 3.780)
+2026-10-01 01:15:53,666 target=85.40 ground=53.60 yaw_body=58.40 error=31.80 forward=0.000 turn=0.00 position=(1.125, 3.779)
+2026-10-01 01:15:54,653 target=85.40 ground=84.90 yaw_body=89.40 error=0.50 forward=0.000 turn=0.00 position=(1.123, 3.780)
+2026-10-01 01:15:55,696 target=85.40 ground=85.40 yaw_body=80.00 error=-0.00 forward=0.000 turn=30.00 position=(1.122, 3.779)
+2026-10-01 01:15:56,682 target=85.40 ground=85.40 yaw_body=49.80 error=-0.00 forward=0.000 turn=30.00 position=(1.122, 3.780)
+2026-10-01 01:15:57,728 target=85.40 ground=85.40 yaw_body=17.60 error=-0.00 forward=0.000 turn=30.00 position=(1.123, 3.780)
+2026-10-01 01:15:58,721 target=85.40 ground=85.40 yaw_body=0.70 error=-0.00 forward=0.000 turn=1.40 position=(1.122, 3.782)
+2026-10-01 01:15:59,400 TURN complete fixed_main=-5.30 walking_yaw=85.40 body_offset=0.10
+2026-10-01 01:15:59,407 TURN fixed_main=-5.30 previous_yaw=85.40 offset=+90 target=175.40 heading=-y
+2026-10-01 01:15:59,720 target=175.40 ground=94.80 yaw_body=9.20 error=80.60 forward=0.000 turn=0.00 position=(1.123, 3.780)
+2026-10-01 01:16:00,761 target=175.40 ground=144.30 yaw_body=58.60 error=31.10 forward=0.000 turn=0.00 position=(1.124, 3.779)
+2026-10-01 01:16:01,804 target=175.40 ground=174.90 yaw_body=89.20 error=0.50 forward=0.000 turn=0.00 position=(1.126, 3.779)
+2026-10-01 01:16:02,795 target=175.40 ground=175.40 yaw_body=80.00 error=-0.00 forward=0.000 turn=30.00 position=(1.129, 3.779)
+2026-10-01 01:16:03,839 target=175.40 ground=175.40 yaw_body=49.80 error=-0.00 forward=0.000 turn=30.00 position=(1.128, 3.781)
+2026-10-01 01:16:04,885 target=175.40 ground=175.40 yaw_body=17.10 error=-0.00 forward=0.000 turn=30.00 position=(1.128, 3.780)
+2026-10-01 01:16:05,881 target=175.40 ground=175.40 yaw_body=0.60 error=-0.00 forward=0.000 turn=1.20 position=(1.125, 3.780)
+2026-10-01 01:16:06,451 TURN complete fixed_main=-5.30 walking_yaw=175.40 body_offset=0.30
+2026-10-01 01:16:07,106 ALIGN scan right 134.0 mm
+2026-10-01 01:16:07,106 ALIGN selected right (search order right, left, back)
+2026-10-01 01:16:09,923 ALIGN right check 1: +137.0 -123.0 diff=14.0 mm
+2026-10-01 01:16:10,744 ALIGN right yaw +4.2 degrees (1/3, total 4.2)
+2026-10-01 01:16:12,530 ALIGN right check 2: +140.0 -118.0 diff=22.0 mm
+2026-10-01 01:16:13,205 ALIGN right yaw +6.5 degrees (2/3, total 10.7)
+2026-10-01 01:16:15,610 ALIGN right check 3: +155.0 -128.0 diff=27.0 mm
+2026-10-01 01:16:16,476 ALIGN right yaw +7.0 degrees (3/3, total 17.7)
+2026-10-01 01:16:19,146 ALIGN right check 4: +186.0 -138.0 diff=48.0 mm
+2026-10-01 01:16:19,725 target=-166.90 ground=-165.60 yaw_body=31.70 error=-1.30 forward=0.000 turn=30.00 position=(1.116, 3.781)
+2026-10-01 01:16:20,722 target=-166.90 ground=-166.90 yaw_body=6.70 error=-0.00 forward=0.000 turn=13.40 position=(1.117, 3.782)
+2026-10-01 01:16:21,763 target=-166.90 ground=-166.90 yaw_body=0.30 error=-0.00 forward=0.000 turn=0.60 position=(1.113, 3.776)
+2026-10-01 01:16:21,870 ALIGN result selected=right aligned=False fixed_main_yaw=-5.30 walking_yaw=-166.90
+2026-10-01 01:16:21,870 ALIGN right outside 7.0 mm after 3 corrections; continuing
+2026-10-01 01:16:22,808 target=-166.90 ground=-166.90 yaw_body=0.20 error=-0.00 forward=0.000 turn=0.40 position=(1.113, 3.778)
+2026-10-01 01:16:23,851 target=-166.90 ground=-166.90 yaw_body=-0.80 error=-0.00 forward=0.000 turn=-1.60 position=(1.007, 3.755)
+2026-10-01 01:16:24,840 target=-166.90 ground=-166.90 yaw_body=0.00 error=-0.00 forward=0.300 turn=-0.00 position=(0.797, 3.710)
+2026-10-01 01:16:25,883 target=-166.90 ground=-166.90 yaw_body=0.10 error=-0.00 forward=0.079 turn=0.20 position=(0.591, 3.662)
+2026-10-01 01:16:26,871 target=-166.90 ground=-166.90 yaw_body=0.00 error=-0.00 forward=0.000 turn=-0.00 position=(0.525, 3.647)
+2026-10-01 01:16:27,243 Cell 5 done: 0.592 m
+2026-10-01 01:16:27,249 A* order=((5, 2), (3, 4)) path=[(3, 0), (4, 0), (4, 1), (4, 2), (5, 2)] choose=(3, 0) -> (4, 0)
+2026-10-01 01:16:27,249 TURN fixed_main=-5.30 previous_yaw=-166.90 offset=-90 target=103.10 heading=+x
+2026-10-01 01:16:27,878 target=103.10 ground=169.90 yaw_body=-23.30 error=-66.80 forward=0.000 turn=0.00 position=(0.533, 3.649)
+2026-10-01 01:16:28,916 target=103.10 ground=120.40 yaw_body=-72.50 error=-17.30 forward=0.000 turn=0.00 position=(0.532, 3.649)
+2026-10-01 01:16:29,905 target=103.10 ground=103.10 yaw_body=-89.70 error=-0.00 forward=0.000 turn=0.00 position=(0.532, 3.649)
+2026-10-01 01:16:30,949 target=103.10 ground=103.10 yaw_body=-74.50 error=-0.00 forward=0.000 turn=-30.00 position=(0.531, 3.647)
+2026-10-01 01:16:31,999 target=103.10 ground=103.10 yaw_body=-43.30 error=-0.00 forward=0.000 turn=-30.00 position=(0.530, 3.647)
+2026-10-01 01:16:33,001 target=103.10 ground=103.10 yaw_body=-11.20 error=-0.00 forward=0.000 turn=-22.40 position=(0.532, 3.648)
+2026-10-01 01:16:33,996 target=103.10 ground=103.10 yaw_body=-0.30 error=-0.00 forward=0.000 turn=-0.60 position=(0.535, 3.646)
+2026-10-01 01:16:34,312 TURN complete fixed_main=-5.30 walking_yaw=103.10 body_offset=-0.20
+2026-10-01 01:16:35,066 ALIGN scan right 185.0 mm
+2026-10-01 01:16:35,066 ALIGN selected right (search order right, left, back)
+2026-10-01 01:16:37,571 ALIGN right check 1: +212.0 -159.0 diff=53.0 mm
+2026-10-01 01:16:39,621 ALIGN gimbal trim offset=+0.0 residual=+2.80 command=10.60
+2026-10-01 01:16:39,784 ALIGN right yaw +7.0 degrees (1/3, total 7.0)
+2026-10-01 01:16:41,355 ALIGN right check 2: +297.0 -175.0 diff=122.0 mm
+2026-10-01 01:16:42,185 ALIGN right yaw +7.0 degrees (2/3, total 14.0)
+2026-10-01 01:16:44,944 ALIGN right check 3: +330.0 -243.0 diff=87.0 mm
+2026-10-01 01:16:45,765 ALIGN right yaw +7.0 degrees (3/3, total 21.0)
+2026-10-01 01:16:48,836 ALIGN right check 4: +389.0 -278.0 diff=111.0 mm
+2026-10-01 01:16:49,407 target=124.10 ground=124.50 yaw_body=34.60 error=-0.40 forward=0.000 turn=30.00 position=(0.532, 3.650)
+2026-10-01 01:16:50,452 target=124.10 ground=124.10 yaw_body=7.90 error=-0.00 forward=0.000 turn=15.80 position=(0.535, 3.651)
+2026-10-01 01:16:51,495 target=124.10 ground=124.10 yaw_body=0.10 error=-0.00 forward=0.000 turn=0.20 position=(0.536, 3.641)
+2026-10-01 01:16:51,703 ALIGN result selected=right aligned=False fixed_main_yaw=-5.30 walking_yaw=124.10
+2026-10-01 01:16:51,703 ALIGN right outside 7.0 mm after 3 corrections; continuing
+2026-10-01 01:16:52,541 target=124.10 ground=124.10 yaw_body=0.30 error=-0.00 forward=0.000 turn=0.60 position=(0.538, 3.641)
+2026-10-01 01:16:53,536 target=124.10 ground=124.10 yaw_body=-0.20 error=-0.00 forward=0.300 turn=-0.40 position=(0.476, 3.721)
+2026-10-01 01:16:54,526 target=124.10 ground=124.10 yaw_body=0.00 error=-0.00 forward=0.300 turn=-0.00 position=(0.342, 3.904)
+2026-10-01 01:16:55,575 target=124.10 ground=124.10 yaw_body=0.10 error=-0.00 forward=0.071 turn=0.20 position=(0.217, 4.075)
+2026-10-01 01:16:56,621 target=124.10 ground=124.10 yaw_body=0.20 error=-0.00 forward=0.000 turn=0.40 position=(0.185, 4.120)
+2026-10-01 01:16:57,039 Cell 6 done: 0.592 m
+2026-10-01 01:16:57,047 A* order=((5, 2), (3, 4)) path=[(4, 0), (4, 1), (4, 2), (5, 2)] choose=(4, 0) -> (4, 1)
+2026-10-01 01:16:57,047 TURN fixed_main=-5.30 previous_yaw=124.10 offset=-90 target=34.10 heading=+y
+2026-10-01 01:16:57,622 target=34.10 ground=100.80 yaw_body=-22.60 error=-66.70 forward=0.000 turn=0.00 position=(0.185, 4.124)
+2026-10-01 01:16:58,667 target=34.10 ground=54.90 yaw_body=-68.40 error=-20.80 forward=0.000 turn=0.00 position=(0.187, 4.125)
+2026-10-01 01:16:59,675 target=34.10 ground=34.20 yaw_body=-89.50 error=-0.10 forward=0.000 turn=0.00 position=(0.189, 4.124)

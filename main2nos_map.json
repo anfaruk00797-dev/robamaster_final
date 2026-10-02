@@ -1,0 +1,248 @@
+{
+  "width": 3,
+  "height": 3,
+  "cell_size_m": 0.6,
+  "targets": [
+    [
+      1,
+      1
+    ]
+  ],
+  "completed_targets": [
+    [
+      1,
+      1
+    ]
+  ],
+  "target_scan_outputs": {},
+  "planned_order": [
+    [
+      1,
+      1
+    ]
+  ],
+  "configured_walls": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  ],
+  "current_cell": [
+    1,
+    1
+  ],
+  "heading": "+y",
+  "initial_yaw": -20.0,
+  "main_yaw": -20.0,
+  "navigation_yaw": -20.0,
+  "actual_gimbal_yaw": -20.0,
+  "odometry_position": [
+    0.64087,
+    1.33884,
+    0.0
+  ],
+  "sharp": {
+    "left_cm": null,
+    "right_cm": null,
+    "brake_active": false
+  },
+  "chassis_attitude": [
+    3.29,
+    -0.19,
+    -4.61
+  ],
+  "phase": "target_scan",
+  "all_targets_reached": false,
+  "path": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "visited": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "flood_values": [
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      4,
+      3,
+      2
+    ]
+  ],
+  "edges": [
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        0,
+        1
+      ],
+      "b": [
+        0,
+        2
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        0,
+        1
+      ],
+      "b": [
+        1,
+        1
+      ],
+      "wall": true
+    },
+    {
+      "a": [
+        0,
+        2
+      ],
+      "b": [
+        1,
+        2
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        1,
+        0
+      ],
+      "b": [
+        2,
+        0
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        1,
+        2
+      ],
+      "wall": true
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        1,
+        2
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        2,
+        0
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "wall": false
+    }
+  ],
+  "notes": "A* uses mapped walls and the saved main_yaw for navigation. Sharp never changes chassis motion while walking or turning; it is used only for map_scan return centering after an IR attempt. ToF aligns yaw and corrects front clearance toward 170 mm when it reaches 120 mm. map_scan.py runs after each target; rejected targets return to the original scan pose by wheel distance."
+}

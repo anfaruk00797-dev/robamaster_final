@@ -1,0 +1,262 @@
+{
+  "width": 3,
+  "height": 3,
+  "cell_size_m": 0.6,
+  "targets": [
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "completed_targets": [
+    [
+      0,
+      2
+    ]
+  ],
+  "target_scan_outputs": {
+    "0,2": "C:\\Users\\Lenovo LOQ\\Documents\\Codex\\2026-09-26\\fv\\outputs\\robomaster_selected_ir\\target_map_0_2_20261001_064248.json"
+  },
+  "planned_order": [
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "configured_walls": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  ],
+  "current_cell": [
+    0,
+    2
+  ],
+  "heading": "-y",
+  "initial_yaw": 42.3,
+  "main_yaw": -139.0,
+  "navigation_yaw": -139.0,
+  "actual_gimbal_yaw": -149.0,
+  "odometry_position": [
+    -0.90348,
+    3.40008,
+    0.0
+  ],
+  "sharp": {
+    "left_cm": 29.108282589999995,
+    "right_cm": 8.194851490000005,
+    "brake_active": false
+  },
+  "chassis_attitude": [
+    78.58,
+    -17.57,
+    85.6
+  ],
+  "phase": "front_obstacle_stop",
+  "all_targets_reached": false,
+  "path": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "visited": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "flood_values": [
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      4,
+      3,
+      2
+    ]
+  ],
+  "edges": [
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        0,
+        1
+      ],
+      "b": [
+        0,
+        2
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        0,
+        1
+      ],
+      "b": [
+        1,
+        1
+      ],
+      "wall": true
+    },
+    {
+      "a": [
+        0,
+        2
+      ],
+      "b": [
+        1,
+        2
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        1,
+        0
+      ],
+      "b": [
+        2,
+        0
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        1,
+        2
+      ],
+      "wall": true
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        1,
+        2
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        2,
+        0
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "wall": false
+    }
+  ],
+  "notes": "A* uses mapped walls. Sharp moves away from one close side wall toward 7 cm and centers only when both side walls are detected. If the ideal correction times out but clearance is above the brake range, navigation resumes. During a turn, confirmed 3 cm proximity triggers side correction and then turning resumes. ToF aligns yaw and corrects front clearance toward 170 mm when it reaches 120 mm, then resumes the route; repeated corrections before cell completion stop safely. Flood values are display-only. map_scan.py runs after each target; its return uses wheel distance fore/aft and Sharp side centering."
+}

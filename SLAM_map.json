@@ -1,0 +1,83 @@
+{
+  "version": "slam-grid-explorer-1",
+  "width": 6,
+  "height": 6,
+  "cell_size_m": 0.6,
+  "start": [
+    0,
+    0
+  ],
+  "current_cell": [
+    0,
+    0
+  ],
+  "heading": 0,
+  "main_yaw": -80.6,
+  "initial_yaw": -80.6,
+  "gimbal_ground_yaw": 10.6,
+  "wheel_position": [
+    8.26455,
+    -7.59609,
+    0.0
+  ],
+  "path": [
+    [
+      0,
+      0
+    ]
+  ],
+  "visited": [
+    [
+      0,
+      0
+    ]
+  ],
+  "edges": [
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1
+      ],
+      "wall": false
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0
+      ],
+      "wall": false
+    }
+  ],
+  "observations": {
+    "0,0:0": [
+      1386.0,
+      1384.0,
+      1384.0,
+      1385.0,
+      1384.0,
+      1383.0,
+      1383.0
+    ],
+    "0,0:1": [
+      847.0,
+      847.0,
+      849.0,
+      848.0,
+      847.0,
+      847.0,
+      848.0
+    ]
+  },
+  "targets": [],
+  "unknown_edges": [],
+  "phase": "stopped",
+  "complete": false
+}

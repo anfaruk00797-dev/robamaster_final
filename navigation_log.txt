@@ -1,0 +1,38 @@
+00:47:32 [INFO] [MAP WARNING] ไม่พบไฟล์ map_config.json ใช้ค่าเริ่มต้น
+00:47:35 [INFO] Calibrating Initial Heading...
+00:47:35 [INFO] [CALIBRATION] Calibrated Initial Heading to North (0 deg)
+00:47:35 [INFO] Calibration Complete!
+00:47:35 [INFO] Starting Target Navigation Module with Real-time Map & Camera...
+00:47:36 [INFO] 🚀 ลำดับการเดินทางสั้นที่สุด: ((1, 1), (2, 4))
+00:47:36 [INFO] [ACTION] Turning from (0, 0) to heading 0°
+00:47:36 [INFO] [STEP START] (0, 0) -> (0, 1) | Dist 0.60m | walls L/R=True/False
+00:47:38 [INFO] [TELEMETRY] (0, 0)->(0, 1) | prog=0.093m yaw=-0.1 ye=+0.1 odom_lat=-0.144 vis=+0.00 c=0.00 y=+0.080
+00:47:40 [INFO] [TELEMETRY] (0, 0)->(0, 1) | prog=0.263m yaw=-0.6 ye=+0.6 odom_lat=-0.341 vis=+0.00 c=0.00 y=+0.080
+00:47:41 [INFO] [TELEMETRY] (0, 0)->(0, 1) | prog=0.405m yaw=-0.5 ye=+0.5 odom_lat=-0.519 vis=+0.00 c=0.00 y=+0.080
+00:47:42 [INFO] [TELEMETRY] (0, 0)->(0, 1) | prog=0.503m yaw=-0.6 ye=+0.6 odom_lat=-0.652 vis=+0.00 c=0.00 y=+0.080
+00:47:44 [INFO] [STEP COMPLETE] (0, 1) | prog=0.592m lat=-0.703m yaw=-0.7
+00:47:44 [INFO] [ACTION] Turning from (0, 1) to heading 90°
+00:47:47 [INFO] [STEP START] (0, 1) -> (1, 1) | Dist 0.60m | walls L/R=False/False
+00:47:48 [INFO] [TELEMETRY] (0, 1)->(1, 1) | prog=-0.021m yaw=90.3 ye=-0.3 odom_lat=-0.182 vis=+0.00 c=0.00 y=+0.080
+00:47:50 [INFO] [TELEMETRY] (0, 1)->(1, 1) | prog=-0.006m yaw=90.1 ye=-0.1 odom_lat=-0.401 vis=+0.00 c=0.00 y=+0.080
+00:47:51 [INFO] [TELEMETRY] (0, 1)->(1, 1) | prog=0.008m yaw=90.0 ye=+0.0 odom_lat=-0.623 vis=+0.00 c=0.00 y=+0.080
+00:47:52 [INFO] [TELEMETRY] (0, 1)->(1, 1) | prog=0.028m yaw=89.9 ye=+0.1 odom_lat=-0.839 vis=+0.00 c=0.00 y=+0.080
+00:47:54 [INFO] [STEP COMPLETE] (1, 1) | prog=0.040m lat=-1.083m yaw=89.8
+00:47:54 [INFO] 🎯 [ARRIVED] หุ่นถึงพิกัด Grid (1, 1) แล้ว!
+00:47:55 [INFO] [ACTION] Turning from (1, 1) to heading 0°
+00:47:58 [INFO] [STEP START] (1, 1) -> (1, 2) | Dist 0.60m | walls L/R=False/False
+00:48:00 [INFO] [TELEMETRY] (1, 1)->(1, 2) | prog=0.083m yaw=-0.1 ye=+0.1 odom_lat=-0.148 vis=+0.00 c=0.00 y=+0.080
+00:48:01 [INFO] [TELEMETRY] (1, 1)->(1, 2) | prog=0.222m yaw=0.2 ye=-0.2 odom_lat=-0.330 vis=+0.00 c=0.00 y=+0.080
+00:48:03 [INFO] [TELEMETRY] (1, 1)->(1, 2) | prog=0.357m yaw=0.2 ye=-0.2 odom_lat=-0.509 vis=+0.00 c=0.00 y=+0.080
+00:48:04 [INFO] [TELEMETRY] (1, 1)->(1, 2) | prog=0.478m yaw=0.1 ye=-0.1 odom_lat=-0.654 vis=+0.00 c=0.00 y=+0.080
+00:48:05 [INFO] [STEP COMPLETE] (1, 2) | prog=0.544m lat=-0.740m yaw=-0.2
+00:48:05 [INFO] [ACTION] Turning from (1, 2) to heading 0°
+00:48:06 [INFO] [STEP START] (1, 2) -> (1, 3) | Dist 0.60m | walls L/R=False/False
+00:48:07 [INFO] [TELEMETRY] (1, 2)->(1, 3) | prog=0.082m yaw=-0.2 ye=+0.2 odom_lat=-0.152 vis=+0.00 c=0.00 y=+0.080
+00:48:09 [INFO] [TELEMETRY] (1, 2)->(1, 3) | prog=0.220m yaw=-0.3 ye=+0.3 odom_lat=-0.332 vis=+0.00 c=0.00 y=+0.080
+00:48:10 [INFO] [TELEMETRY] (1, 2)->(1, 3) | prog=0.310m yaw=-0.2 ye=+0.2 odom_lat=-0.454 vis=+0.00 c=0.00 y=+0.080
+00:48:11 [INFO] [TELEMETRY] (1, 2)->(1, 3) | prog=0.475m yaw=0.2 ye=-0.2 odom_lat=-0.648 vis=+0.00 c=0.00 y=+0.080
+00:48:13 [INFO] [STEP COMPLETE] (1, 3) | prog=0.529m lat=-0.692m yaw=-0.0
+00:48:13 [INFO] [ACTION] Turning from (1, 3) to heading 0°
+00:48:13 [INFO] [STEP START] (1, 3) -> (1, 4) | Dist 0.60m | walls L/R=False/False
+00:48:15 [INFO] 🛑 [KEYBOARD INTERRUPT] Stopped safely by user. Saving logs...

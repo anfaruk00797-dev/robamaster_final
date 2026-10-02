@@ -1,0 +1,14 @@
+2026-10-01 00:09:45,250 map_scan2 version map-scan2-continuous-30deg-2
+2026-10-01 00:09:58,160 SCAN main_yaw=-160.20 requested=['ir', 'ur']
+2026-10-01 00:09:59,857 TARGET SCAN front: move -0.10 m on x; sweep base +0 -> +30 -> -30
+2026-10-01 00:10:00,733 SHARP BRAKE left=2.745269059999991 cm (ADC=390) right=13.888019409999998 cm (ADC=258), limit=3.0 cm
+2026-10-01 00:10:01,139 TARGET SCAN front offset blocked: Sharp blocked target-scan offset after 0.092 m (left=2.671513399999995 cm, right=14.504672290000002 cm); returning to scan center
+2026-10-01 00:10:01,576 SHARP BRAKE released left=3.70 cm right=12.80 cm
+2026-10-01 00:10:02,237 TARGET SCAN Sharp centered left=8.2 right=7.8 cm
+2026-10-01 00:10:04,753 TARGET SCAN Sharp centered left=13.1 right=13.3 cm
+2026-10-01 00:10:04,753 TARGET SCAN front scanning from center without offset
+2026-10-01 00:10:04,894 TARGET SCAN front sweeping toward main_yaw +30 deg
+2026-10-01 00:10:05,794 TARGET SCAN aim lost/timed out: ir toward front
+2026-10-01 00:10:08,006 TARGET SCAN aim lost/timed out: ir toward front
+2026-10-01 00:10:09,890 TARGET SCAN aim lost/timed out: ur toward front
+2026-10-01 00:10:18,003 TARGET SCAN aim lost/timed out: ur toward front

@@ -1,0 +1,119 @@
+{
+  "map_size_m": [
+    1.0,
+    1.0
+  ],
+  "robot_position_m": [
+    0.5,
+    0.5
+  ],
+  "robot_initial_yaw_deg": -160.9,
+  "heading_convention": "0=initial forward, positive=right, x=right, y=forward",
+  "location_method": "Camera bearing intersected with 1 m square boundary; distance is assumed, not measured",
+  "targets": [
+    {
+      "code": "ir",
+      "shape": "RECTANGLE 9x6cm",
+      "color": "RED",
+      "bearing_deg": 20.1,
+      "elevation_deg": -20.19,
+      "map_x_m": 0.683,
+      "map_y_m": 1.0,
+      "first_chassis_yaw_deg": -160.9,
+      "last_chassis_yaw_deg": -160.9,
+      "first_gimbal_yaw_deg": -0.1,
+      "gimbal_pitch_deg": -11.7,
+      "box_px": [
+        744,
+        384,
+        216,
+        124
+      ],
+      "firing_gimbal_yaw_deg": 6.5,
+      "firing_gimbal_pitch_deg": -13.1,
+      "chassis_offset_m": [
+        -0.1,
+        0.0
+      ],
+      "ir_status": "confirmed"
+    },
+    {
+      "code": "ir",
+      "shape": "RECTANGLE 9x6cm",
+      "color": "RED",
+      "bearing_deg": 7.6,
+      "elevation_deg": -24.26,
+      "map_x_m": 0.566,
+      "map_y_m": 1.0,
+      "first_chassis_yaw_deg": -161.1,
+      "last_chassis_yaw_deg": -161.1,
+      "first_gimbal_yaw_deg": 52.7,
+      "gimbal_pitch_deg": -14.9,
+      "box_px": [
+        0,
+        368,
+        122,
+        174
+      ],
+      "firing_gimbal_yaw_deg": 17.4,
+      "firing_gimbal_pitch_deg": -14.7,
+      "chassis_offset_m": [
+        -0.1,
+        0.0
+      ],
+      "ir_status": "confirmed"
+    },
+    {
+      "code": "ur",
+      "shape": "SQUARE 7x7cm",
+      "color": "RED",
+      "bearing_deg": -15.1,
+      "elevation_deg": -18.77,
+      "map_x_m": 0.365,
+      "map_y_m": 1.0,
+      "first_chassis_yaw_deg": -160.9,
+      "last_chassis_yaw_deg": -160.9,
+      "first_gimbal_yaw_deg": 16.0,
+      "gimbal_pitch_deg": -14.7,
+      "box_px": [
+        209,
+        324,
+        167,
+        155
+      ],
+      "firing_gimbal_yaw_deg": -1.4,
+      "firing_gimbal_pitch_deg": -13.3,
+      "chassis_offset_m": [
+        -0.1,
+        0.0
+      ],
+      "ir_status": "confirmed"
+    },
+    {
+      "code": "ur",
+      "shape": "SQUARE 7x7cm",
+      "color": "RED",
+      "bearing_deg": -4.6,
+      "elevation_deg": -17.94,
+      "map_x_m": 0.46,
+      "map_y_m": 1.0,
+      "first_chassis_yaw_deg": -160.7,
+      "last_chassis_yaw_deg": -160.7,
+      "first_gimbal_yaw_deg": 0.3,
+      "gimbal_pitch_deg": -11.6,
+      "box_px": [
+        530,
+        358,
+        122,
+        132
+      ],
+      "firing_gimbal_yaw_deg": -10.8,
+      "firing_gimbal_pitch_deg": -9.5,
+      "chassis_offset_m": [
+        -0.1,
+        0.0
+      ],
+      "ir_status": "confirmed"
+    }
+  ]
+}

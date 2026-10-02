@@ -1,0 +1,68 @@
+2026-10-01 07:19:06,949 main2nos version main2nos-native-map-scan-sharp-fallback-10
+2026-10-01 07:19:06,953 Running file: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\main2nos.py
+2026-10-01 07:19:06,960 Map: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\map_config.json; start=(0, 0) facing +y; targets=((1, 1),); configured walls=2
+2026-10-01 07:19:06,963 Cell 0.60 m; map_config walls=2; alignment wall threshold 300 mm; clearance 120 mm; ToF channel 0; target scanner=C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\map_scan.py
+2026-10-01 07:19:07,477 Python: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\myenv\Scripts\python.exe; SDK: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\myenv\lib\site-packages\robomaster\robot.py
+2026-10-01 07:19:08,777 RECENTER before recording the first main yaw
+2026-10-01 07:19:12,880 START cell=(0, 0) targets=((1, 1),) map=3x3 initial_yaw=-20.00
+2026-10-01 07:19:12,880 Gimbal command return: None (NoneType); None is normal for async SDK
+2026-10-01 07:19:12,881 target=-20.00 ground=-20.00 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(0.068, 0.727)
+2026-10-01 07:19:13,398 A* order=((1, 1),) path=[(0, 0), (1, 0), (1, 1)] choose=(0, 0) -> (1, 0)
+2026-10-01 07:19:13,398 TURN previous_main=-20.00 offset=+90 target=70.00 heading=+x
+2026-10-01 07:19:13,872 target=70.00 ground=-1.80 yaw_body=17.60 error=71.80 forward=0.000 turn=0.00 position=(0.069, 0.726)
+2026-10-01 07:19:14,916 target=70.00 ground=46.70 yaw_body=66.40 error=23.30 forward=0.000 turn=0.00 position=(0.068, 0.728)
+2026-10-01 07:19:15,913 target=70.00 ground=69.80 yaw_body=89.40 error=0.20 forward=0.000 turn=0.00 position=(0.068, 0.728)
+2026-10-01 07:19:16,904 target=70.00 ground=70.00 yaw_body=76.30 error=0.00 forward=0.000 turn=30.00 position=(0.069, 0.730)
+2026-10-01 07:19:17,960 target=70.00 ground=70.00 yaw_body=44.00 error=0.00 forward=0.000 turn=30.00 position=(0.070, 0.729)
+2026-10-01 07:19:18,962 target=70.00 ground=70.00 yaw_body=12.70 error=0.00 forward=0.000 turn=25.40 position=(0.072, 0.729)
+2026-10-01 07:19:19,957 target=70.00 ground=70.00 yaw_body=0.30 error=0.00 forward=0.000 turn=0.60 position=(0.068, 0.732)
+2026-10-01 07:19:20,374 MAIN YAW SAVED previous=-20.00 new=70.00 body_offset=0.00
+2026-10-01 07:19:21,104 ALIGN scan right 2306.0 mm
+2026-10-01 07:19:22,127 ALIGN scan left 1436.0 mm
+2026-10-01 07:19:24,918 ALIGN scan back unavailable: No fresh alignment ToF: index=0 raw=(3130, 0, 0, 0)
+2026-10-01 07:19:25,826 target=70.00 ground=72.90 yaw_body=1.70 error=-2.90 forward=0.000 turn=-2.40 position=(0.069, 0.724)
+2026-10-01 07:19:26,833 target=70.00 ground=70.00 yaw_body=-0.30 error=0.00 forward=0.000 turn=-0.60 position=(0.069, 0.721)
+2026-10-01 07:19:27,251 ALIGN result selected=None aligned=False main_yaw=70.00
+2026-10-01 07:19:29,807 Front ToF check unavailable on open mapped edge: No fresh alignment ToF: index=0 raw=(4385, 0, 0, 0)
+2026-10-01 07:19:29,808 target=70.00 ground=70.00 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(0.070, 0.722)
+2026-10-01 07:19:30,853 target=70.00 ground=70.00 yaw_body=0.20 error=0.00 forward=0.400 turn=0.40 position=(0.057, 0.876)
+2026-10-01 07:19:31,847 target=70.00 ground=70.00 yaw_body=-0.10 error=0.00 forward=0.147 turn=-0.20 position=(0.035, 1.196)
+2026-10-01 07:19:32,850 target=70.00 ground=70.00 yaw_body=0.00 error=0.00 forward=0.060 turn=0.00 position=(0.028, 1.290)
+2026-10-01 07:19:33,734 Cell 1 done: 0.594 m
+2026-10-01 07:19:33,739 A* order=((1, 1),) path=[(1, 0), (1, 1)] choose=(1, 0) -> (1, 1)
+2026-10-01 07:19:33,739 TURN previous_main=70.00 offset=-90 target=-20.00 heading=+y
+2026-10-01 07:19:33,848 target=-20.00 ground=68.30 yaw_body=-1.60 error=-88.30 forward=0.000 turn=0.00 position=(0.027, 1.320)
+2026-10-01 07:19:34,841 target=-20.00 ground=23.20 yaw_body=-46.80 error=-43.20 forward=0.000 turn=0.00 position=(0.026, 1.319)
+2026-10-01 07:19:35,882 target=-20.00 ground=-17.30 yaw_body=-88.00 error=-2.70 forward=0.000 turn=0.00 position=(0.027, 1.319)
+2026-10-01 07:19:36,872 target=-20.00 ground=-20.00 yaw_body=-88.30 error=0.00 forward=0.000 turn=-30.00 position=(0.027, 1.318)
+2026-10-01 07:19:37,911 target=-20.00 ground=-20.00 yaw_body=-59.60 error=0.00 forward=0.000 turn=-30.00 position=(0.026, 1.318)
+2026-10-01 07:19:38,901 target=-20.00 ground=-20.00 yaw_body=-27.60 error=0.00 forward=0.000 turn=-30.00 position=(0.028, 1.317)
+2026-10-01 07:19:39,942 target=-20.00 ground=-20.00 yaw_body=-2.10 error=0.00 forward=0.000 turn=-4.20 position=(0.028, 1.316)
+2026-10-01 07:19:40,898 MAIN YAW SAVED previous=70.00 new=-20.00 body_offset=-0.40
+2026-10-01 07:19:43,451 ALIGN scan right unavailable: No fresh alignment ToF: index=0 raw=(3732, 0, 0, 0)
+2026-10-01 07:19:46,318 ALIGN scan left unavailable: No fresh alignment ToF: index=0 raw=(3682, 0, 0, 0)
+2026-10-01 07:19:47,113 ALIGN scan back 2044.0 mm
+2026-10-01 07:19:48,115 target=-20.00 ground=-16.70 yaw_body=1.90 error=-3.30 forward=0.000 turn=-2.80 position=(0.029, 1.312)
+2026-10-01 07:19:49,109 target=-20.00 ground=-20.00 yaw_body=-0.50 error=0.00 forward=0.000 turn=-1.00 position=(0.033, 1.311)
+2026-10-01 07:19:49,633 ALIGN result selected=None aligned=False main_yaw=-20.00
+2026-10-01 07:19:50,151 target=-20.00 ground=-20.00 yaw_body=0.10 error=0.00 forward=0.000 turn=0.20 position=(0.036, 1.311)
+2026-10-01 07:19:51,192 target=-20.00 ground=-20.00 yaw_body=0.40 error=0.00 forward=0.400 turn=0.80 position=(0.089, 1.311)
+2026-10-01 07:19:52,198 target=-20.00 ground=-20.00 yaw_body=-0.30 error=0.00 forward=0.346 turn=-0.60 position=(0.347, 1.320)
+2026-10-01 07:19:53,190 target=-20.00 ground=-20.00 yaw_body=-0.10 error=0.00 forward=0.084 turn=-0.20 position=(0.565, 1.334)
+2026-10-01 07:19:54,225 target=-20.00 ground=-20.00 yaw_body=-0.10 error=0.00 forward=0.000 turn=-0.20 position=(0.634, 1.339)
+2026-10-01 07:19:54,643 Cell 2 done: 0.592 m
+2026-10-01 07:19:54,643 TARGET reached (1, 1) (1/1)
+2026-10-01 07:19:54,754 TARGET SCAN starting cell=(1, 1) requested=['pr'] output=C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\target_map_nos_1_1_20261001_071954.json
+2026-10-01 07:19:54,871 SHARP BRAKE left=1.2553963399999972 cm (ADC=446) right=7.776382929999997 cm (ADC=330), limit=3.0 cm
+2026-10-01 07:19:55,020 TARGET SCAN yaw anchor main=-20.00 ground=-20.00 offset=+0.00
+2026-10-01 07:19:55,833 TARGET SCAN step away x=-0.10 y=+0.00 m (wheel measured)
+2026-10-01 07:19:57,529 TARGET SCAN step away complete 0.102 m by wheel position
+2026-10-01 07:20:05,551 TARGET SCAN return fore/aft 0.102 m by wheel position (target not confirmed)
+2026-10-01 07:20:07,221 TARGET SCAN rejected target; scan pose restored by wheels
+2026-10-01 07:20:10,792 TARGET SCAN step away x=-0.10 y=+0.00 m (wheel measured)
+2026-10-01 07:20:12,394 TARGET SCAN step away complete 0.099 m by wheel position
+2026-10-01 07:20:15,702 TARGET SCAN return fore/aft 0.099 m by wheel position (target not confirmed)
+2026-10-01 07:20:17,372 TARGET SCAN rejected target; scan pose restored by wheels
+2026-10-01 07:20:18,435 TARGET SCAN step away x=+0.00 y=+0.10 m (wheel measured)
+2026-10-01 07:20:18,951 SHARP BRAKE released left=9.07 cm right=7.84 cm
+2026-10-01 07:20:20,185 TARGET SCAN step away complete 0.104 m by wheel position

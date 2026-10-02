@@ -1,0 +1,18 @@
+{
+  "completed": true,
+  "directions": [
+    "front",
+    "right",
+    "left",
+    "back"
+  ],
+  "skipped_directions": [
+    "right"
+  ],
+  "confirmed_ir": 1,
+  "requested": [
+    "ig",
+    "pr",
+    "ug"
+  ]
+}

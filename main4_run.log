@@ -1,0 +1,11 @@
+2026-10-01 01:43:50,206 main4 version main4-no-alignment-1
+2026-10-01 01:43:50,207 Running file: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\main4.py
+2026-10-01 01:43:50,207 Map: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\map_config.json; start=(0, 0) facing +y; targets=((3, 1), (3, 4), (5, 2)); walls=16
+2026-10-01 01:43:55,478 SdkConnection: RECV TimeOut!
+2026-10-01 01:43:55,479 Robot: Connection Failed, Please Check Hareware Connections!!! conn_type ap, host ('0.0.0.0', 10319), target ('192.168.2.1', 20020).
+2026-10-01 01:43:55,479 Client: __init__, create Connection, exception: module 'robomaster.config' has no attribute 'DEFAULT_CONN_PROTO'
+2026-10-01 01:43:55,481 Client: send_sync_msg, client recv_task is not running.
+2026-10-01 01:43:55,482 Client: send_sync_msg, client recv_task is not running.
+2026-10-01 01:43:55,482 Client: send_sync_msg, client recv_task is not running.
+2026-10-01 01:43:55,482 Client: send_sync_msg, client recv_task is not running.
+2026-10-01 01:43:55,483 Client: send_sync_msg, client recv_task is not running.

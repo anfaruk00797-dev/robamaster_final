@@ -1,0 +1,52 @@
+2026-09-29 03:00:20,281 work_gimball version 2026-09-29-r4
+2026-09-29 03:00:20,281 Running file: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\work_gimball.py
+2026-09-29 03:00:20,282 Python: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\myenv\Scripts\python.exe
+2026-09-29 03:00:20,517 SDK robot module: C:\Users\Lenovo LOQ\Documents\Codex\2026-09-26\fv\outputs\robomaster_selected_ir\myenv\lib\site-packages\robomaster\robot.py
+2026-09-29 03:00:23,617 Initial gimbal ground heading: 1.80 degrees
+2026-09-29 03:00:23,618 Gimbal command return: None (NoneType); None is normal for async SDK
+2026-09-29 03:00:23,618 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(4.288, 2.392)
+2026-09-29 03:00:24,659 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(4.287, 2.393)
+2026-09-29 03:00:25,698 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.140 turn=0.00 position=(4.402, 2.393)
+2026-09-29 03:00:26,746 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.140 turn=0.00 position=(4.555, 2.394)
+2026-09-29 03:00:27,788 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.140 turn=0.00 position=(4.705, 2.395)
+2026-09-29 03:00:28,833 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.063 turn=0.00 position=(4.834, 2.395)
+2026-09-29 03:00:29,886 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(4.878, 2.395)
+2026-09-29 03:00:30,379 Cell 1 done: 0.591 m
+2026-09-29 03:00:30,932 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(4.884, 2.395)
+2026-09-29 03:00:31,981 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.140 turn=0.00 position=(5.012, 2.395)
+2026-09-29 03:00:33,028 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.140 turn=0.00 position=(5.156, 2.396)
+2026-09-29 03:00:34,073 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.140 turn=0.00 position=(5.296, 2.396)
+2026-09-29 03:00:35,123 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.058 turn=0.00 position=(5.435, 2.396)
+2026-09-29 03:00:36,111 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.025 turn=0.00 position=(5.472, 2.396)
+2026-09-29 03:00:36,664 Cell 2 done: 0.593 m
+2026-09-29 03:00:37,160 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(5.478, 2.396)
+2026-09-29 03:00:38,208 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.140 turn=0.00 position=(5.606, 2.398)
+2026-09-29 03:00:39,261 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.140 turn=0.00 position=(5.749, 2.401)
+2026-09-29 03:00:40,254 target=1.80 ground=1.80 yaw_body=-0.10 error=0.00 forward=0.140 turn=-0.20 position=(5.887, 2.402)
+2026-09-29 03:00:41,302 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.064 turn=0.00 position=(6.025, 2.403)
+2026-09-29 03:00:42,354 target=1.80 ground=1.80 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(6.068, 2.403)
+2026-09-29 03:00:42,848 Cell 3 done: 0.591 m
+2026-09-29 03:00:42,848 Gimbal right 90 degrees; target 91.80
+2026-09-29 03:00:43,403 target=91.80 ground=21.20 yaw_body=18.80 error=70.60 forward=0.000 turn=0.00 position=(6.073, 2.403)
+2026-09-29 03:00:44,398 target=91.80 ground=64.40 yaw_body=62.10 error=27.40 forward=0.000 turn=0.00 position=(6.074, 2.403)
+2026-09-29 03:00:45,452 target=91.80 ground=91.80 yaw_body=89.40 error=0.00 forward=0.000 turn=0.00 position=(6.073, 2.403)
+2026-09-29 03:00:45,640 Chassis following gimbal to within 1.0 degree
+2026-09-29 03:00:46,441 target=91.80 ground=91.80 yaw_body=72.50 error=0.00 forward=0.000 turn=30.00 position=(6.072, 2.402)
+2026-09-29 03:00:47,495 target=91.80 ground=91.80 yaw_body=37.50 error=0.00 forward=0.000 turn=30.00 position=(6.075, 2.403)
+2026-09-29 03:00:48,486 target=91.80 ground=91.80 yaw_body=9.60 error=0.00 forward=0.000 turn=19.20 position=(6.075, 2.403)
+2026-09-29 03:00:49,537 target=91.80 ground=91.80 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(6.073, 2.402)
+2026-09-29 03:00:50,590 target=91.80 ground=91.80 yaw_body=-0.40 error=0.00 forward=0.140 turn=-0.80 position=(6.073, 2.421)
+2026-09-29 03:00:51,642 target=91.80 ground=91.80 yaw_body=0.00 error=0.00 forward=0.140 turn=0.00 position=(6.074, 2.581)
+2026-09-29 03:00:52,648 target=91.80 ground=91.80 yaw_body=0.10 error=0.00 forward=0.140 turn=0.20 position=(6.077, 2.728)
+2026-09-29 03:00:53,692 target=91.80 ground=91.80 yaw_body=0.20 error=0.00 forward=0.140 turn=0.40 position=(6.080, 2.869)
+2026-09-29 03:00:54,742 target=91.80 ground=91.80 yaw_body=0.10 error=0.00 forward=0.034 turn=0.20 position=(6.080, 2.978)
+2026-09-29 03:00:55,786 target=91.80 ground=91.80 yaw_body=0.20 error=0.00 forward=0.000 turn=0.40 position=(6.081, 3.003)
+2026-09-29 03:00:55,911 Cell 4 done: 0.594 m
+2026-09-29 03:00:56,835 target=91.80 ground=91.80 yaw_body=0.10 error=0.00 forward=0.140 turn=0.20 position=(6.081, 3.031)
+2026-09-29 03:00:57,882 target=91.80 ground=91.80 yaw_body=0.10 error=0.00 forward=0.140 turn=0.20 position=(6.082, 3.173)
+2026-09-29 03:00:58,929 target=91.80 ground=91.80 yaw_body=0.10 error=0.00 forward=0.140 turn=0.20 position=(6.083, 3.329)
+2026-09-29 03:00:59,970 target=91.80 ground=91.80 yaw_body=0.10 error=0.00 forward=0.140 turn=0.20 position=(6.084, 3.475)
+2026-09-29 03:01:01,010 target=91.80 ground=91.80 yaw_body=0.10 error=0.00 forward=0.031 turn=0.20 position=(6.084, 3.578)
+2026-09-29 03:01:02,057 target=91.80 ground=91.80 yaw_body=0.10 error=0.00 forward=0.000 turn=0.20 position=(6.082, 3.598)
+2026-09-29 03:01:02,121 Cell 5 done: 0.592 m
+2026-09-29 03:01:02,121 Route complete

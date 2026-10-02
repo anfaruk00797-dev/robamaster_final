@@ -1,0 +1,12 @@
+2026-10-01 06:02:19,543 SLAM version slam-grid-explorer-1 grid=6x6 start=(0, 0) target_rules={'red': ['RECT_H', 'SQUARE'], 'yellow': [], 'green': [], 'blue': ['CIRCLE']}
+2026-10-01 06:02:23,409 Gimbal command return: None (NoneType); None is normal for async SDK
+2026-10-01 06:02:23,411 target=-80.60 ground=-80.60 yaw_body=0.00 error=0.00 forward=0.000 turn=0.00 position=(8.266, -7.598)
+2026-10-01 06:02:27,272 SCAN (0, 0) front wall=False ToF=[1386.0, 1384.0, 1384.0, 1385.0, 1384.0, 1383.0, 1383.0]
+2026-10-01 06:02:31,361 SCAN (0, 0) right wall=False ToF=[847.0, 847.0, 849.0, 848.0, 847.0, 847.0, 848.0]
+2026-10-01 06:02:44,571 Target scan unavailable at (0, 0) right: Alignment gimbal motion failed: command=90.5 offset=+90.0
+2026-10-01 06:02:44,572 Exploration stopped at (0, 0): Missing/stale gimbal or position telemetry
+2026-10-01 06:02:47,598 Client: send_sync_msg wait msg receiver:0100, cmdset:0x3f, cmdid:0xd2 timeout!
+2026-10-01 06:02:50,601 Client: send_sync_msg wait msg receiver:0100, cmdset:0x3f, cmdid:0xd2 timeout!
+2026-10-01 06:02:53,613 Client: send_sync_msg wait msg receiver:0900, cmdset:0x48, cmdid:0x04 timeout!
+2026-10-01 06:02:56,627 Client: send_sync_msg wait msg receiver:0900, cmdset:0x48, cmdid:0x04 timeout!
+2026-10-01 06:02:59,629 Client: send_sync_msg wait msg receiver:0900, cmdset:0x48, cmdid:0x04 timeout!

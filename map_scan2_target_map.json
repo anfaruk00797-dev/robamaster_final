@@ -1,0 +1,37 @@
+{
+  "map_size_m": [
+    1.0,
+    1.0
+  ],
+  "robot_position_m": [
+    0.5,
+    0.5
+  ],
+  "robot_initial_yaw_deg": -159.1,
+  "heading_convention": "0=initial forward, positive=right, x=right, y=forward",
+  "location_method": "Camera bearing intersected with 1 m square boundary; distance is assumed, not measured",
+  "targets": [
+    {
+      "code": "ur",
+      "shape": "SQUARE 7x7cm",
+      "color": "RED",
+      "bearing_deg": -14.0,
+      "elevation_deg": -17.55,
+      "map_x_m": 0.375,
+      "map_y_m": 1.0,
+      "first_chassis_yaw_deg": -159.1,
+      "last_chassis_yaw_deg": -159.1,
+      "first_gimbal_yaw_deg": -7.5,
+      "gimbal_pitch_deg": -12.1,
+      "box_px": [
+        508,
+        350,
+        132,
+        130
+      ],
+      "scan_direction": "front",
+      "scan_offset_deg": 0,
+      "ir_status": "confirmed"
+    }
+  ]
+}
